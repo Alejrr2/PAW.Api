@@ -1,0 +1,12 @@
+D:\ProyectosVisualStudio2022\Tarea 1 Individual\PAW.API\PAW.Services\bin\Debug\net8.0\PAW.Services.deps.json
+D:\ProyectosVisualStudio2022\Tarea 1 Individual\PAW.API\PAW.Services\bin\Debug\net8.0\PAW.Services.dll
+D:\ProyectosVisualStudio2022\Tarea 1 Individual\PAW.API\PAW.Services\bin\Debug\net8.0\PAW.Services.pdb
+D:\ProyectosVisualStudio2022\Tarea 1 Individual\PAW.API\PAW.Services\obj\Debug\net8.0\PAW.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProyectosVisualStudio2022\Tarea 1 Individual\PAW.API\PAW.Services\obj\Debug\net8.0\PAW.Services.AssemblyInfoInputs.cache
+D:\ProyectosVisualStudio2022\Tarea 1 Individual\PAW.API\PAW.Services\obj\Debug\net8.0\PAW.Services.AssemblyInfo.cs
+D:\ProyectosVisualStudio2022\Tarea 1 Individual\PAW.API\PAW.Services\obj\Debug\net8.0\PAW.Services.csproj.CoreCompileInputs.cache
+D:\ProyectosVisualStudio2022\Tarea 1 Individual\PAW.API\PAW.Services\obj\Debug\net8.0\PAW.Services.dll
+D:\ProyectosVisualStudio2022\Tarea 1 Individual\PAW.API\PAW.Services\obj\Debug\net8.0\refint\PAW.Services.dll
+D:\ProyectosVisualStudio2022\Tarea 1 Individual\PAW.API\PAW.Services\obj\Debug\net8.0\PAW.Services.pdb
+D:\ProyectosVisualStudio2022\Tarea 1 Individual\PAW.API\PAW.Services\obj\Debug\net8.0\ref\PAW.Services.dll
+D:\ProyectosVisualStudio2022\Tarea 1 Individual\PAW.API\PAW.Services\obj\Debug\net8.0\PAW.Services.csproj.AssemblyReference.cache

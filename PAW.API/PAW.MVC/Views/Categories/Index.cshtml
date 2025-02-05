@@ -1,0 +1,26 @@
+﻿@model IEnumerable<PAW.Models.Category>
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<h1>Categories</h1>
+
+<div class="container">
+    @foreach (var c in Model)
+    {
+        <ul>
+            <li>@c.CategoryId</li>
+            @switch (c.CategoryName)
+            {
+                case "Beverage":
+                    <li>@c.CategoryName <img src="https://eu-images.contentstack.com/v3/assets/blta023acee29658dfc/blta9f158c45627aa62/651dbb742365a678d7ec7f18/AdobeStock_279692163_Editorial_Use_Only-Beverage-FTR-new.jpg?disable=upscale&width=1200&height=630&fit=crop" width="25" /></li>
+                    break;
+                case "Condiments":
+                    <li>Condiments <img src="https://sporked.com/wp-content/uploads/2023/07/AGGREGATED-RANKING_CONDIMENTS_HEADER.jpg" width="25" /></li>
+                    break;
+            }
+            <li>@c.Description</li>
+        </ul>
+    }
+</div>

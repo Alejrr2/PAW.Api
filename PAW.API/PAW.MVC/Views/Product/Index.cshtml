@@ -1,0 +1,33 @@
+﻿@model IEnumerable<PAW.Models.Product>
+@{
+    ViewData["Title"] = "Index";
+}
+
+@functions{
+    public string transformPrice(decimal value)
+    {
+        return $"₡{value}";
+    }
+}
+
+<h1>Product</h1>
+
+<div class="container">
+    @foreach (var p in Model)
+    {
+        <ul>
+            <li>@p.ProductId</li>
+            <li>@transformPrice(@p.UnitPrice)</li>
+            @switch (p.ProductName){
+                case "Coca cola":
+                                <li>@p.ProductName <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/15-09-26-RalfR-WLC-0098_-_Coca-Cola_glass_bottle_%28Germany%29.jpg/800px-15-09-26-RalfR-WLC-0098_-_Coca-Cola_glass_bottle_%28Germany%29.jpg" width="25" /></li>
+                    break;
+                case "Play Station":
+                    <li>Ps5 <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-pro-dualsense-image-block-01-en-16aug24?$facebook$" width="25" /></li>
+                    break;
+            }
+            <li>@p.QuantityPerUnit</li>
+        </ul>
+    }
+</div>
+
